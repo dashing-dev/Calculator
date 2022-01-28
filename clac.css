@@ -98,3 +98,29 @@ button:nth-child(20){
 #percent{
     background-color: rgb(255, 145, 0);
 }
+.owner{
+     display: flex;
+	 justify-content: right;
+	 align-items: right;
+	 padding-right: 50px;
+	 font-size: 20px;
+}
+.owner{
+	color: white;
+	display: flex;
+	align-content: cente;
+	align-items: right;
+	
+
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color:transparent;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+  }
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js"></script>
+    <title>Stop Watch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        
+        body{
+            font-family: 'roboto mono';
+            background: linear-gradient(rgb(89, 127, 197),rgb(95, 150, 85));
+            height: 600px;
+            overflow: hidden;
+        }
+        h1{
+            font-size: 45px;
+            text-align: center;
+            margin-top: 200px;
+            color: azure;
+        }
+        table{
+            margin: 30px auto;
+            text-align: center;
+        }
+        .label{
+            font-family: 'roboto mono';
+            font-size: 100px;
+            line-height: 100px;
+            margin: 5px;
+            width: 200px;
+
+        }
+        td>button{
+            width: 100px;
+            padding: 8px;
+            border: 1px solid #fff;
+            background-color: rgba(0, 0, 0, 0.192);
+            color: #fff;
+            font-size: 20px;
+            border-radius: 5px;
+
+
+        }
+    </style>
+</head>
+<style>
+    
+</style>
+<style>
+    
+   #hr , #min , #sec { font-size: 200px; }
+</style>
+<body>
+    <h1>
+        STOPWATCH
+    </h1>
+    <table cellpadding=5>
+        <tr>
+            <td>
+                <h1 class="label" id="hr">00</h1>
+                <h2>Hours</h3>
+            </td>
+            <td>
+                <h1 class="label" id="min">00</h1>
+                <h2>Minutes</h3>
+            </td>
+            <td>
+                <h1 class="label" id="sec">00</h1>
+                <h2>Seconds</h3>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <button onclick="reset()" id="Reset">Reset</button>
+            </td>
+            <td>
+                <button onclick="stop()" id="Stop">Stop</button>
+            </td>
+            <td>
+                <button onclick="start()" id="start">Start</button>
+            </td>
+        </tr>
+    </table>
+    
+    <div class="footer">
+        <p>Created by <a href="http://sanjaybhandari.netlify.app" style="text-decoration: none"> Sanjay bhandari</a></p>
+      </div>
+        
+        </div>
+</body>
+</html>
